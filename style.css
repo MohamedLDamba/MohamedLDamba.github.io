@@ -1,16 +1,52 @@
-body{
-	background-image: url("imageformma.jpg");
-	background-color: red;
-
-}
-
 nav {
-	background-color: orange;
-	font-family: arial, sans-sarif;
+	word-spacing: 30px;
 }
+header{
+	font-size: 15px;
+	font-style: italic;
+	font-weight: bold;
+	line-height: normal;
+	color: black;
+	
+}
+img {
+	background-image: url("https://cdn.dribbble.com/users/249558/screenshots/2609485/mma-dribble.png");
+	padding: 10px 10px 10px 10px;
+	border-radius: solid 10px;
+	width: 200px;
+	height: 200px;
+	background-color: silver;
+	float: right;
+}
+body {
+	 background-color: red;
+	 font-family:sans-serif;
+	 font-size:13px;
+	 text-align: center;
+	 color: orange;
+}
+h1 {
+	padding: 20px 20px 20px 20px;
+	border: solid 2px orange;
+	width: 100px;
+	height: 100px;
+	background-color: red;
+}
+
+
+.pictures {
+	background-color: deepskyblue;
+	color: green;
+}
+#content, p {
+	background-color: navy blue;
+	text-align: center;
+	text-decoration-color: black;
+	line-height: 200px;
+}
+
 a {
-	background-color: brown;
-    color: gray;
+    color: orange;
     text-decoration: none;
     display: block;
     width: 80px
@@ -26,40 +62,36 @@ a {
 	font-size: 0px;
 }
 a:hover {
-	color: stateblue;
+	color: navy blue;
+	background-color: lightgreen;
 }
 p {
-	padding: 15;
-	border: 10;
+	padding: 15px;
+	border: 10px;
 	margin: 2em,2em,2em,2em;
-	line-height: 10px;
+	line-height: 200px;
 }
 
 div {
-	color: orange, green;
-	background-color: yellow;
+	color: black;
+	background-color: orange;
 }
 
 h2 {
-	background-color: gray;
+	background-color: blue;
+	color:white;
 
 }
 
 #femail {
 	padding: 1.5em,2em;
-	border: gold;
+	border: solid black;
 }
-bottom {
+footer {
 	background-color: green;
 	
 }
 
-#content {
-backgound-color:gold;
-width:25px;
-padding: 15px;
-margin:30px;
-float: left;
 }
 #wrapper {
 background-color: green;
