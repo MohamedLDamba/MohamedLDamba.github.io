@@ -1,99 +1,27 @@
-nav {
-	word-spacing: 30px;
+a:hover {
+color: purple whitespace; 
 }
-header{
-	font-size: 15px;
-	font-style: italic;
-	font-weight: bold;
-	line-height: normal;
-	color: black;
-	
-}
-img {
-	background-image: url("https://cdn.dribbble.com/users/249558/screenshots/2609485/mma-dribble.png");
-	padding: 10px 10px 10px 10px;
-	border-radius: solid 10px;
-	width: 200px;
-	height: 200px;
-	background-color: silver;
-	float: right;
-}
+
 body {
-	 background-color: red;
-	 font-family:sans-serif;
-	 font-size:13px;
-	 text-align: center;
-	 color: orange;
+	background-image:url("https://giphy.com/gifs/bruce-lee-XtcfqdBrHEa4g"); 
+	background-color: red;
+	font-style: italic;
+	text-decoration-color: 
 }
 h1 {
-	padding: 20px 20px 20px 20px;
-	border: solid 2px orange;
-	width: 100px;
-	height: 100px;
-	background-color: red;
+	color: red;
+	background-size: blue;
+	font-family: serif;
 }
+img {
+	padding: 8px;
+	border: solid 2px green;
+	background-color: black;
+	 {
+.me {	 	
+float:left;
+ }
+ input[type=submit] { 
+ 	color:blue;
 
-
-.pictures {
-	background-color: deepskyblue;
-	color: green;
-}
-#content, p {
-	background-color: navy blue;
-	text-align: center;
-	text-decoration-color: black;
-	line-height: 200px;
-}
-
-a {
-    color: orange;
-    text-decoration: none;
-    display: block;
-    width: 80px
-    padding: 15px;
-    float: left;
-}
-.clearfix:after {
-	visibility: hidden;
-	display: block;
-	content:"";
-	clear:both;
-	height: 0px;
-	font-size: 0px;
-}
-a:hover {
-	color: navy blue;
-	background-color: lightgreen;
-}
-p {
-	padding: 15px;
-	border: 10px;
-	margin: 2em,2em,2em,2em;
-	line-height: 200px;
-}
-
-div {
-	color: black;
-	background-color: orange;
-}
-
-h2 {
-	background-color: blue;
-	color:white;
-
-}
-
-#femail {
-	padding: 1.5em,2em;
-	border: solid black;
-}
-footer {
-	background-color: green;
-	
-}
-
-}
-#wrapper {
-background-color: green;
-float: right;
-}
+ }
