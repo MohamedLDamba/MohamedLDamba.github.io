@@ -17,8 +17,14 @@ img {
 	padding: 8px;
 	border: solid 2px green;
 	background-color: black;
-	 {
-.me {	 	
+	float: left;
+	 }
+.clearfix::after{
+	content: "";
+	clear:both;
+	display: ;
+}
+.content {	 	
 float:left;
  }
  input[type=submit] { 
