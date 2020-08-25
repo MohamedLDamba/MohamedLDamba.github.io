@@ -1,5 +1,5 @@
 a:hover {
-color: purple whitespace; 
+color: black; 
 }
 
 body {
@@ -17,7 +17,8 @@ img {
 	padding: 8px;
 	border: solid 2px green;
 	background-color: black;
-	float: left;
+	float: none;
+	width: 20%;
 	 }
 .clearfix::after{
 	content: "";
@@ -29,5 +30,10 @@ float:left;
  }
  input[type=submit] { 
  	color:blue;
+}
+@media only screen and (min-width: 400px) and (max-width: 1000px){
+	img{
+		float: left;
+		width: auto;
+}
 
- }
