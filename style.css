@@ -18,10 +18,10 @@ img {
 	padding: 8px;
 	border: solid 2px green;
 	background-color: black;
-	width: 20%;
+	width: 50%;
 	 }
 .clearfix::after,
-#coaches:break-after: {
+#coaches:after {
 	content: "";
 	clear:both;
 	display:block;
