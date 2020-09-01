@@ -14,22 +14,29 @@ h1 {
 	font-family: serif;
 }
 img {
+	margin: 8px;
 	padding: 8px;
 	border: solid 2px green;
 	background-color: black;
-	float: none;
 	width: 20%;
 	 }
-.clearfix::after{
+.clearfix::after,
+#coaches:break-after: {
 	content: "";
 	clear:both;
-	display: ;
+	display:block;
+	float: left;
+
 }
+
+
 .content {	 	
 float:left;
+width: 40%;
  }
  input[type=submit] { 
- 	color:blue;
+ 	background-color:blue;
+ 	color:white;
 }
 @media only screen and (min-width: 400px) and (max-width: 1000px){
 	img{
