@@ -1,51 +1,8 @@
 a:hover {
-color: black; 
-}
-
-body {
-	background-image:url("https://giphy.com/gifs/bruce-lee-XtcfqdBrHEa4g"); 
-	background-color: red;
-	font-style: italic;
-	text-decoration-color: 
+color: red
 }
 h1 {
 	color: red;
 	background-size: blue;
 	font-family: serif;
 }
-img {
-	margin: 8px;
-	padding: 8px;
-	border: solid 2px green;
-	background-color: black;
-	width: 50%;
-	 }
-.clearfix::after,
-#coaches:after {
-	content: "";
-	clear:both;
-	display:block;
-	float: left;
-
-}
-
-.coaches{
-	float:left;
-	width:50%;
-	padding: 1em;
-}
-
-
-.content {	 	
-width: 40%;
- }
- input[type=submit] { 
- 	background-color:blue;
- 	color:white;
-}
-@media only screen and (min-width: 400px) and (max-width: 1000px){
-	body{
-		float: none;
-		width: auto;
-}
-
